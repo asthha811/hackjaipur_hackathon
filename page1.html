@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<body>
+
+<nav class="w3-bar w3-black">
+<h1> Menage </h1>
+<style>
+h1 {
+  margin-left: 45%;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 50px;
+}
+</style>
+</br>
+
+ <a href="page1.html" class="w3-button w3-bar-item">Home</a>
+  <a href="work.html" class="w3-button w3-bar-item">Work</a>
+  <a href="rewards.html" class="w3-button w3-bar-item">Rewards</a>
+  <a href="review.html" class="w3-button w3-bar-item">Reviews</a>
+ <a href="coverage.html" class="w3-button w3-bar-item">Coverage</a>
+ <a href="about.html" class="w3-button w3-bar-item"> About us</a>
+</nav>
+
+<section>
+
+<div class="contaner">
+ 
+ <button  style=" position: absolute;
+ 
+ top : 10%;
+ 
+ right : 18%;
+
+  transform: translate(-50%, -50%);
+
+  -ms-transform: translate(-50%, -50%);
+  
+  background-color: rgb(156, 223, 206);
+  
+  color: rgb(22, 22, 22);
+ 
+ font-size: 16px;
+ 
+ padding: 12px 24px;
+ 
+ border: none;
+ 
+ cursor: pointer;
+ 
+ border-radius: 5px;" class="btn"><a href="https://forms.gle/SiUeYVaBztcdoYnWA">Login</button>
+ 
+ <button  style=" position: absolute;
+  
+top : 10%;
+  
+right: 8%;
+ 
+ transform: translate(-50%, -50%);
+ 
+ -ms-transform: translate(-50%, -50%);
+ 
+ background-color: rgb(156, 223, 206);
+  
+ color: rgb(22, 22, 22);
+  
+ font-size: 16px;
+ 
+ padding: 12px 24px;
+  
+border: none;
+ 
+ cursor: pointer;
+ 
+ border-radius: 5px;" class="btn"> <a href="https://forms.gle/gFtyRfrvFefibzE86">Register</button>
+
+<button  style=" position: absolute;
+ 
+ top : 20%;
+ 
+ right : 3%;
+
+  transform: translate(-50%, -50%);
+
+  -ms-transform: translate(-50%, -50%);
+  
+  background-color: rgb(156, 223, 206);
+  
+  color: rgb(22, 22, 22);
+ 
+ font-size: 12px;
+ 
+ padding: 12px 24px;
+ 
+ border: none;
+ 
+ cursor: pointer;
+ 
+ border-radius: 2px;" class="btn" ><a href="https://forms.gle/N2jhFcmCTYNCZtTY7">Join us</button>
+  
+  
+<img class="mySlides" src="pic1.jpg" style="width:100%">
+  <img class="mySlides" src="pic2.jpeg" style="width:100%">
+  <img class="mySlides" src="pic3.jpg" style="width:100%">
+
+</div>
+  
+
+</section>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+<section class="w3-container w3-center" style="max-width:600px">
+  <h2 class="w3-wide">MENAGE</h2>
+  <p class="w3-opacity"><i>Your moments,our celebrations</i></p>
+</section>
+
+<section class="w3-container w3-content w3-center" style="max-width:600px">
+<p class="w3-justify">
+Menage, is founded in the year 2020 with the objective of  providing care to the people. "A home away from home " is our attempt to provide a homely and respectable living for the people with utmost commitment, dedication,trust and care.Our centre offers quality post acute and long term care.Our focus is providing exceptional services,by people who truly care in an environment that promotes healing and wellness.</p>
+</section>
+
+
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+<h4>Contact Us </h4>
+<style>
+h4
+{
+margin-align: center;
+}
+</style>
+  <a href="https://www.facebook.com"><i class="fa fa-facebook-official"></i></a>
+  <a href="https://www.pinterest.com"><i class="fa fa-pinterest-p"></i></a>
+  <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+  <a href="https://www.flickr.com"><i class="fa fa-flickr"></i></a>
+  <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+  
+</footer>
+
+</body>
+</html>
